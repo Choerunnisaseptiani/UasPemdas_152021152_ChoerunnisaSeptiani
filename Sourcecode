@@ -1,0 +1,43 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+void input (int,int,int,float,float,float);
+
+
+int main (){
+	
+	int n,x,y,i,nilai1 ;
+	float jumlah1,jumlah2,jumlahxy;
+	
+	cout << "Masukan nilai data : ";
+	cin >> n ;	
+	
+
+	input (n,x,y,jumlah1,jumlah2,jumlahxy);
+	
+
+	
+	
+}
+void input (int banyak, int dua, int satu,float sigmax,float sigmay,float sigmaxy){
+	int i,nol=sigmaxy,hasil;
+	
+	
+	for (i=1;i<=banyak;i++){
+		cout <<"X"<< i << ". ";
+		cin >> satu ;
+		sigmax = sigmax + satu ;
+		cout <<"Y"<< i << ". ";
+		cin >> dua ;
+		sigmay = sigmay + dua ;	
+		sigmaxy = satu * dua ;
+		hasil = sigmaxy + sigmaxy ;
+		
+	    
+}
+cout << "hasil sigmax : " << sigmax	<< endl;
+cout << "hasil sigmay : " << sigmay << endl	;
+cout << "hasil sigmaxy : " << hasil << endl ;
+}
+
