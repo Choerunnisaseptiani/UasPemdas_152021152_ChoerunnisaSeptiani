@@ -7,10 +7,16 @@ void input (int,int,int,float,float,float);
 
 int main (){
 	
+	
+	cout << "======================== UAS PEMDAS  ========================" << endl;
+	cout << "               CHOERUNNISA SEPTIANI TRI NOERDIN              " << endl ;
+	cout << "                            DD                               " << endl ;
+	cout << endl;
+	
 	int n,x,y,i,nilai1 ;
 	float jumlah1,jumlah2,jumlahxy;
 	
-	cout << "Masukan nilai data : ";
+	cout << "Masukan banyak data : ";
 	cin >> n ;	
 	
 
@@ -30,6 +36,7 @@ void input (int banyak, int dua, int satu,float sigmax,float sigmay,float sigmax
 		sigmax = sigmax + satu ;
 		cout <<"Y"<< i << ". ";
 		cin >> dua ;
+		cout << endl;
 		sigmay = sigmay + dua ;	
 		sigmaxy = satu * dua ;
 		hasil = sigmaxy + sigmaxy ;
@@ -40,4 +47,5 @@ cout << "hasil sigmax : " << sigmax	<< endl;
 cout << "hasil sigmay : " << sigmay << endl	;
 cout << "hasil sigmaxy : " << hasil << endl ;
 }
+
 
